@@ -15,6 +15,7 @@ public class User {
 
 	private String email;
 
+	private Boolean subscribed;
 	public Integer getId() {
 		return id;
 	}
@@ -37,5 +38,13 @@ public class User {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public Boolean getSubscribed() {
+		return subscribed;
+	}
+
+	public void setSubscribed(Boolean subscribed) {
+		this.subscribed = subscribed;
 	}
 }
